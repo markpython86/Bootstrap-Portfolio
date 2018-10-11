@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <title>About</title>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -13,49 +14,59 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- Navbar Starts -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">Mark Almanassra</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
+      <a class="navbar-brand" href="index.html">Mark Almanassra</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" id="about-page">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
   </nav>
-  <h2>Hi im index</h2>
-  <div class="container">
-    <h1 class="page-header">About Me</h1>
-    <div class="row">
-      <div class="col-md-4">
-        <img src="assets/images/mark.jpg" width="290" height="290">
-      </div>
-      <div class="col-md-8">
-         <p>Hi! I'm Mohammed, I'm a junior Full stack Developer, I'm an eager learner from Austin, TX. I'm currently learning  web development with UT Bootcamp Austin. I also have a degree in Electronic Engineering so I can't wait till I get to the point where I can jump into the more interactive data visualizations and put what I'm learning to good use. But for now I'm having fun learning the basics! This page is a simple personal Porfolio project challenge.</p>
+  <!-- Navbar Ends -->
+  <!-- Content Starts-->
+  <div id="wrap">
+    <h2>Hi im index</h2>
+    <div id="main" class="container clear-top">
+      <h1 class="page-header">About Me</h1>
+      <div class="row">
+        <div class="col-sm-4 thumbnail">
+          <img src="assets/images/mark.jpg" class="img-responsive">
+        </div>
+        <div class="col-sm-8">
+           <p>Hi! I'm Mohammed, I'm a junior Full stack Developer, I'm an eager learner from Austin, TX. I'm currently learning  web development with UT Bootcamp Austin. I also have a degree in Electronic Engineering so I can't wait till I get to the point where I can jump into the more interactive data visualizations and put what I'm learning to good use. But for now I'm having fun learning the basics! This page is a simple personal Porfolio project challenge.</p>
+        </div>
       </div>
     </div>
-        
-       
-      </div>
-    </div>
-
+  </div>
+  <!-- Content Ends-->
+  <!-- Footer starts -->
   <footer class="page-footer">
       <div class="container-fluid text-center text-md-left">
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <div class="row justify-content-center">
+          <div class="col-4">
+            <p>&copy; 2018 Copyright</p>
+          </div>
+          <div class="ftr-effect col-6 contact-links">
+            <a href="#"><i class="fab fa-github"></i> Github</a>
+            <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+            <a href="#"><i class="fab fa-codepen"></i> Codepen</a>
+            <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+          </div>  
         </div>
       </div>
   </footer>
-
-
-  
+  <!-- Footer Ends -->
 </body>
 </html>
