@@ -229,9 +229,10 @@ div.thumbnail img{
   background: transparent !important;
 }
 
-.ftr-effect.col-6.contact-links {
+.ftr-effect.col-4.contact-links {
   padding-left: 125px;
   letter-spacing: 2px;
+  display: contents;
 }
 
 
@@ -266,4 +267,10 @@ div.thumbnail img{
   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
+}
+
+@media only screen and (max-width: 526px) {
+  .contact-links{
+    display: inline-grid;
+  }
 }
